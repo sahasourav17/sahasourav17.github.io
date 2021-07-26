@@ -8,8 +8,8 @@
   scroll-behavior: smooth;
 }
 :root{
-    --primary-color:#ff8882;
-    --black-color:#0E2431;
+    --primary-color:#0075BE;
+    --black-color:#000000;
     --white-color:#fff;
 
 }
@@ -315,7 +315,7 @@ section .button button:hover{
 
 /* My projects CSS */
 .projects .boxes{
-   display:flex; 
+   display:flex;
    flex-wrap: wrap;
    justify-content:space-between;
 }
@@ -494,7 +494,7 @@ footer .text span a:hover{
   }
 
   .projects .boxes .box{
-    margin:20px 0; 
+    margin:20px 0;
     width:100%;
   }
 
@@ -513,5 +513,3 @@ footer .text span a:hover{
     color:var(--primary-color);
   }
 }
-        
-      
