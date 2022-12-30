@@ -310,6 +310,7 @@ section .button button:hover{
   margin:20px 0;
 }
 .skills-details .boxes .topic{
+  padding: 10px;
   font-size: 15px;
   color:var(--primary-color);
 }
