@@ -144,12 +144,12 @@ nav.sticky .menu-btn{
   margin-left: -3px;
 }
 .home .text-three{
-  font-size: 40px;
+  font-size: 30px;
   margin:5px 0;
   color:var(--primary-color);
 }
 .home .text-four{
-  font-size: 23px;
+  font-size: 20px;
   margin:5px 0;
   color:var(--black-color);
 }
@@ -329,10 +329,10 @@ section .button button:hover{
   cursor:default;
   transition: all 0.4s ease;
 }
-.projects .boxes .box:hover{
+/* .projects .boxes .box:hover{
   background: var(--primary-color);
   color:var(--white-color);
-}
+} */
 .projects .boxes .box .icon{
   height:50px;
   width:50px;
@@ -349,10 +349,31 @@ section .button button:hover{
   background:var(--white-color);
   color:var(--primary-color);
 }
-.projects .boxes .box:hover .topic,
+/* .projects .boxes .box:hover .topic,
+.projects .boxes .box:hover .demo-git,
 .projects .boxes .box:hover p{
   color:var(--white-color);
   transition: all 0.4s ease;
+} */
+
+/* .projects .boxes .box .demo-git{
+  display: flex;
+  flex-direction: row;
+} */
+
+.demo-git {
+  /* padding: 5px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  border: none;
+  border-radius: 10px;
+  color: var(--primary-color);
+}
+.demo-git .link {
+  color: var(--primary-color);
+  outline: none;
 }
 
 /* Contact Me CSS */
