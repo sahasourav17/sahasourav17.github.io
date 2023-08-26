@@ -289,7 +289,7 @@ section .button button:hover{
   margin:0 10px;
 }
 .skills-details .experience .num{
-  color:var(--black-color);
+  color:var(--primary-color);
   font-size: 80px;
 }
 .skills-details .experience .exp{
@@ -353,13 +353,13 @@ section .button button:hover{
   /* background: var(--primary-color); */
 }
 
-.html {
+.mongodb {
   width: 90%;
   animation: html 3s;
   border-radius: 8px;
 }
 
-.css {
+.tailwind-css {
   width: 80%;
   animation: css 3s;
   border-radius: 8px;
@@ -376,8 +376,13 @@ section .button button:hover{
   animation: javascript 3s;
   border-radius: 8px;
 }
+.node {
+  width: 90%;
+  animation: python 3s;
+  border-radius: 8px;
+}
 
-.cpp {
+.react {
   width: 80%;
   animation: cpp 3s;
   border-radius: 8px;
@@ -389,8 +394,14 @@ section .button button:hover{
   border-radius: 8px;
 }
 
-.sql {
-  width: 70%;
+.mysql {
+  width: 75%;
+  animation: sql 3s;
+  border-radius: 8px;
+}
+
+.mui {
+  width: 85%;
   animation: sql 3s;
   border-radius: 8px;
 }
